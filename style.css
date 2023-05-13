@@ -1,0 +1,44 @@
+/*Tendremos que crear un archivo adicional en formato CSS para adjuntar a nuestra página */
+.header {
+    text-align: center;
+}
+/*La imagen tendrá un alto de 60 px*/
+.header img {
+    height: 60px;
+}
+/*El texto tendrá un tamaño de 16 puntos, será de color #333FFF y estará en negrita */
+.header h1 {
+    font-size: 16px;
+    color: #333FFF;
+    font-weight: bold;
+}
+/*El menú estará en horizontal con un ancho del 100%, color de fondo negro y letra blanca*/
+.menu {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+/*Crearemos un pie de página con un “Aviso Legal”, “Política de Cookies” y “Política de Privacidad”, tendrá una disposición 
+horizontal con fondo negro y letra blanca.*/
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
